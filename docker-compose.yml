@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  database:
+    image: postgres
+    container_name: database_template
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=database_template
+      - POSTGRES_PASSWORD=sHEpN81W6E6I
+      - POSTGRES_DB=database_template
