@@ -16,6 +16,8 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "fastify": "^4.19.2"
+    "fastify": "^4.19.2",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0"
   }
 }

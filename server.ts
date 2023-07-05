@@ -1,11 +1,12 @@
+import SessionRouter from "./src/routes/session.routes";
+import "reflect-metadata";
+import router from "./src/routes";
 const fastify = require("fastify")({ logger: true });
-
-// Declare a route
-// fastify.get('/', function handler (request, reply) {
-//   reply.send({ hello: 'world' })
-// })
 
 console.log("Hello, world!");
 
-// Run the server!
-fastify.listen({ port: 3000 });
+const teste = {
+  router,
+};
+
+fastify.listen({ port: 3333 }, console.log("Server listing on port 3333"));
